@@ -16,3 +16,17 @@ reprex(venue="so")
 reprex(venue="r")
 
 t <- 2+1
+
+library(remotes)
+remotes::install_github("karthik/holepunch")
+library(remotes)
+
+write_compendium_description(package = "CWY", 
+                             description = "CWY")
+
+write_dockerfile(maintainer = "CWY") 
+
+generate_badge() 
+
+# copy and paste the code generate_badge produces 
+#into the file (e.g. README.md / a .Rmd) of your choice.
