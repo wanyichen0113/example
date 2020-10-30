@@ -1,0 +1,6 @@
+write_compendium_description(package = "CWY", 
+                             description = "CWY")
+
+write_dockerfile(maintainer = "CWY") 
+
+generate_badge() 
